@@ -1,0 +1,124 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(../assets/mainbg.jpg);
+    background-position: center;
+    background-size: cover;  
+  }
+  .herotext{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .herotext p{
+    color: #fff;
+  }
+  .herotext h1{
+    color: #fff;
+  }
+  
+   .herotext h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-right: 50px;
+  }
+  
+  .herotext h1 span{
+    color: rgb(207, 61, 36);
+  }
+  
+  .now{
+    margin-top: 50px;
+    gap: 20px;
+  }
+  
+  .order{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(53, 53, 92) ;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin-right: 50px;
+  }
+  
+  .order:hover{
+    background-color:  rgb(100, 83, 83);
+  }
+  
+  .food{
+    width: 120px;
+    height: 40px ;
+    color: white;
+    background-color: black;
+    border-radius: 45px;
+  }
+  .cartoon img{
+    height: 100px;
+  }
+  
+  
+  .pizza img{
+    height: 500px;
+  
+   -webkit-animation: rotate-center 2.6s ease-in-out both;
+              animation: rotate-center 9.6s ease-in-out infinite;
+    
+  }
+  
+   @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+
+  @media (max-width : 975px ) {
+    
+    .hero{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .herotext{
+      width: 100%;
+    }
+
+    .pizza img {
+      display: none;
+     
+    }
+  }
+
+  @media (max-width : 768px) {
+    
+    .hero{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+  }

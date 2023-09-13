@@ -1,0 +1,60 @@
+.dinner{
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid rebeccapurple;
+}
+#cartoon{
+    height: 300px;
+}
+
+@media(max-width:768px){
+    .dinner{
+        display: flex;
+        flex-direction: column;
+    }
+    .tabel{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .plan{
+        width:auto !important;
+        /* background-color: brown !important; */
+    }
+}
+
+.plan img {
+width: auto;
+}
+.plan{
+    min-width: 45%;
+/* background-color: antiquewhite; */
+}
+.tabel{
+    height: 50%;
+    
+}
+
+.tabel h1{
+    margin-bottom: 10px;
+}
+
+.tabel h1 span{
+    color: brown;
+}
+
+
+.fungal{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: midnightblue;
+    border-radius: 30px;
+    border: none;
+}

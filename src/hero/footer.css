@@ -1,0 +1,89 @@
+.footer{
+    width: 100%;
+    height: 80vh;
+    
+    
+   
+}
+.one h1{
+    margin-bottom: 10px;
+    color: rgb(232, 19, 19);
+    
+}
+
+.one span{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.one span  {
+    color: red;
+    margin-top: 15px;
+}
+
+.foot{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+#car{
+    height: 250px;
+}
+
+
+.two li a{
+    text-decoration: none;
+    color: black;
+}
+.two li a:hover{
+    color: red;
+}
+
+.two li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.three li a{
+    text-decoration: none;
+    color: black;
+}
+.three li a:hover{
+    color: red;
+}
+
+.three li {
+    list-style: none;
+    margin-top: 10px;
+}
+.four li a{
+    text-decoration: none;
+    color: black;
+}
+.four li a:hover{
+    color: red;
+}
+.four{
+    margin-right: 35px;
+}
+
+.four li {
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+@media (max-width : 768px) {
+    .foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}

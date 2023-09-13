@@ -1,0 +1,107 @@
+.drink{
+    min-height:50vh;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    /* justify-content: center;
+    align-items: center; */
+
+    /* margin: 80px; */
+}
+
+.grid {
+	-webkit-animation: flip-scale-2-ver-right 0.5s linear both;
+	        animation: flip-scale-2-ver-right 0.5s linear both;
+}
+  
+
+.drink h1 {
+    color: tomato;
+    text-align: center;
+    font-size: 40px;
+}
+.aa{
+    background-color: rgb(240, 223, 155);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.aa h4 {
+    margin-left: 20px;
+}
+
+.b{
+    background-color: rgb(152, 208, 92);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+
+
+}
+.b h4 {
+    margin-left: 20px;
+}
+.c{
+    background-color: rgb(56, 203, 166);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    grid-column: 3/4 ;
+    grid-row: 1/2;
+
+}
+.c h4 {
+    margin-left: 20px;
+}
+.d{
+    background-color: rgb(155, 202, 202);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+}
+.d h4 {
+    margin-left: 20px;
+}
+
+#ba{
+    height: 100px;
+}
+
+
+#a{
+    height: 150px;
+  
+}
+
+.view{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+@media (max-width : 975px ) {
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
